@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.util.List;
 
 //Classe DAO générique servant de base aux autres classes DAO et s'adaptant à l'Objet qu'elles traitent
-//Les méthodes (prototypes) contenues dans cette classe sont abstraites et redéfinies dans les classes qui héritent de celle-ci
+//Les méthodes (prototypes) contenues dans cette classe sont abstraites et redéfinies dans les classes qui héritent de celle-ci.
 public abstract class DAO<T> {
 	
     //protected Connection connection = null;
